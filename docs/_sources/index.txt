@@ -1,0 +1,39 @@
+.. MINEDW 3.05 documentation master file, created by
+   sphinx-quickstart on Wed Oct 28 12:05:45 2020.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+===========================
+**MINEDW 3.05 User Manual**
+===========================
+|image0|
+
+Itasca International Inc. © 2018
+
+.. toctree::
+
+	1_introduction
+	2_features_of_minedw
+	3_minedw_interface
+	4_importing_data_sets
+	5_mesh_generator
+	6_nodes_and_elements
+	7_model_input_data
+	8_model_execution
+	9_model_output
+	references
+	acronyms_abbreviations
+
+.. |image0| image:: media/image1.png
+   :width: 2.66038in
+   :height: 2.66038in
+
+
+
+
+
+
+
+
+
+
+
