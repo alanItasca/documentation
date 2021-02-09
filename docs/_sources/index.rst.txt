@@ -1,4 +1,4 @@
-.. MINEDW 3.05 documentation master file, created by
+.. MINEDW 3.06 documentation master file, created by
    sphinx-quickstart on Wed Oct 28 12:05:45 2020.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -56,3 +56,20 @@ Developed from FEMFLOW3D, **MINEDW** was validated by Sandia National Laboratori
 	1_steady_state_tutorial
 	2_transient_state_open_pit_tutorial
 	3_transient_state_underground_tutorial
+	Tutorial Downloads <https://tutorialfiles.sfo3.digitaloceanspaces.com/Tutorial_Files.zip>
+
+.. toctree::
+	:caption: TUTORIAL VIDEOS
+	:hidden:
+	
+	1_menu_options_video
+	2_visualization_options_video
+	3_boundary_conditions_video
+	
+.. toctree::
+	:caption: ABOUT ITASCA
+	:hidden:
+	
+	MINEDW <https://www.itascadenver.com/software/MINEDW>
+	Itasca Denver <https://www.itascadenver.com/>
+	Itasca Chile <https://www.itasca.cl/>

@@ -1,7 +1,9 @@
-/* This file intentionally left blank. */
-img.align-center {
-   margin-left: auto;
-   margin-right: auto;
-   text-align:center;
-   display:block;
+#gsc-iw-id1.gsc-input-box
+{
+	border: none;
+}
+#gsc-i-id1.gsc-input
+{
+	padding: 5px;
+	
 }

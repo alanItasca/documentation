@@ -23,12 +23,6 @@ components:
 
 4. Control Panel (shown in the yellow frame).
 
-.. raw:: html
-	
-	<div style="text-align: center; margin-bottom: 2em;">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/r9GNjkQRCnk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</div>
-
 3.1 View Pane
 -------------
 
@@ -261,12 +255,6 @@ Variable Flux:
 	Menu for assigning variable-flux boundary conditions.
 	See Section 7.4.3 for complete details on the assignment of
 	variable-flux boundaries.
-	
-.. raw:: html
-	
-	<div style="text-align: center; margin-bottom: 2em;">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/FdfG6bMMVyc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</div>
 
 Pumping Well: 
 	Menu for specifying source-sink terms (e.g., pumping
@@ -772,12 +760,6 @@ or delete a plot item from a plot file.
    :align: center
 
    Figure 3.22 The *MINEDW* main interface
-
-.. raw:: html
-	
-	<div style="text-align: center; margin-bottom: 2em;">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/tXk6FGCnJl8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</div>
 
 The “\ *Plot Items*\ ” sub-pane contains three groups, differentiated by
 color as shown in Figure 3.23. The first group, which is in blue,

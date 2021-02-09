@@ -710,7 +710,7 @@ kimberlite pipe.
 
 To define the contact zone, click on the *“To Zone”* button (Figure
 1.28) and then select *“Contact”* from the combo box (Figure 1.29). Then
-check “\ *Face*\ ” in the box next to *“Layer Thickness,”* enter 100,
+check “\ *Face*\ ” in the box next to *“Layer Thickness,”* enter 20,
 then click *“OK.”* The process may take some time, but the area will be
 assigned to the contact zone. **Note:** The contact zone may need to be
 adjusted manually by selecting elements with the *“Select”* tool. To
