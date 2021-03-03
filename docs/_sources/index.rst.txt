@@ -65,6 +65,8 @@ Developed from FEMFLOW3D, **MINEDW** was validated by Sandia National Laboratori
 	1_menu_options_video
 	2_visualization_options_video
 	3_boundary_conditions_video
+	4_mesh_generation_video
+	5_hydrogeological_units_video
 	
 .. toctree::
 	:caption: ABOUT ITASCA
