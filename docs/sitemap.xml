@@ -9,82 +9,107 @@
 
 <url>
   <loc>https://www.documentation.minedw.com/</loc>
-  <lastmod>2021-02-02T17:09:09+00:00</lastmod>
+  <lastmod>2021-03-03T20:42:44+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.documentation.minedw.com/1_introduction_manual.html</loc>
-  <lastmod>2021-02-02T17:09:09+00:00</lastmod>
+  <lastmod>2021-03-03T20:42:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.documentation.minedw.com/2_features_of_minedw_manual.html</loc>
-  <lastmod>2021-02-02T17:09:09+00:00</lastmod>
+  <lastmod>2021-03-03T20:42:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.documentation.minedw.com/3_minedw_interface_manual.html</loc>
-  <lastmod>2021-02-02T17:09:09+00:00</lastmod>
+  <lastmod>2021-03-03T20:42:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.documentation.minedw.com/4_importing_data_sets_manual.html</loc>
-  <lastmod>2021-02-02T17:09:09+00:00</lastmod>
+  <lastmod>2021-03-03T20:42:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.documentation.minedw.com/5_mesh_generator_manual.html</loc>
-  <lastmod>2021-02-02T17:09:09+00:00</lastmod>
+  <lastmod>2021-03-03T20:42:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.documentation.minedw.com/6_nodes_and_elements_manual.html</loc>
-  <lastmod>2021-02-02T17:09:09+00:00</lastmod>
+  <lastmod>2021-03-03T20:42:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.documentation.minedw.com/7_model_input_data_manual.html</loc>
-  <lastmod>2021-02-02T17:09:09+00:00</lastmod>
+  <lastmod>2021-03-03T20:42:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.documentation.minedw.com/8_model_execution_manual.html</loc>
-  <lastmod>2021-02-02T17:09:09+00:00</lastmod>
+  <lastmod>2021-03-03T20:42:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.documentation.minedw.com/9_model_output_manual.html</loc>
-  <lastmod>2021-02-02T17:09:09+00:00</lastmod>
+  <lastmod>2021-03-03T20:42:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.documentation.minedw.com/references_manual.html</loc>
-  <lastmod>2021-02-02T17:09:09+00:00</lastmod>
+  <lastmod>2021-03-03T20:42:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.documentation.minedw.com/acronyms_abbreviations_manual.html</loc>
-  <lastmod>2021-02-02T17:09:09+00:00</lastmod>
+  <lastmod>2021-03-03T20:42:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.documentation.minedw.com/1_steady_state_tutorial.html</loc>
-  <lastmod>2021-02-02T17:09:09+00:00</lastmod>
+  <lastmod>2021-03-03T20:42:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.documentation.minedw.com/2_transient_state_open_pit_tutorial.html</loc>
-  <lastmod>2021-02-02T17:09:09+00:00</lastmod>
+  <lastmod>2021-03-03T20:42:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.documentation.minedw.com/3_transient_state_underground_tutorial.html</loc>
-  <lastmod>2021-02-02T17:09:09+00:00</lastmod>
+  <lastmod>2021-03-03T20:42:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.documentation.minedw.com/1_menu_options_video.html</loc>
+  <lastmod>2021-03-03T20:42:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.documentation.minedw.com/2_visualization_options_video.html</loc>
+  <lastmod>2021-03-03T20:42:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.documentation.minedw.com/3_boundary_conditions_video.html</loc>
+  <lastmod>2021-03-03T20:42:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.documentation.minedw.com/4_mesh_generation_video.html</loc>
+  <lastmod>2021-03-03T20:42:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.documentation.minedw.com/5_hydrogeological_units_video.html</loc>
+  <lastmod>2021-03-03T20:42:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.documentation.minedw.com/index.html</loc>
-  <lastmod>2021-02-02T17:09:09+00:00</lastmod>
+  <lastmod>2021-03-03T20:42:44+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
