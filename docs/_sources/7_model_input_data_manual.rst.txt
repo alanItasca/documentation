@@ -36,7 +36,7 @@ Project Name:
 	The user-defined name of the project.
 
 Output File Name: 
-	The prefix assigned to all ***MINEDW***-created
+	The prefix assigned to all **MINEDW**-created
 	data-set files (e.g., the model file would be labeled
 	“\ *TR\_model.dat*\ ” when “\ *TR\_”* is the output file name)\ *.*
 
@@ -801,12 +801,12 @@ Varied:
 
    Figure 7.31 Time-series input options
 
-Time-series data can be imported from a text file (the format for the
-text file is described in Appendix B). The plot on the left-hand side
-displays the time-series data. For any period during which the pump is
-turned off, enter “0” for wells that are defined as “\ *Pumping Rate*\ ”
-or “\ *LPE*\ ” wells (lowest pumping elevation wells) and “N/A” or
-“-99999999” for wells that are defined as “\ *Specified Head*\ ” wells.
+Time-series data can be imported from a text file (Appendix B). 
+The plot on the left-hand side displays the time-series data. 
+For any period during which the pump is turned off, enter “0” 
+for wells that are defined as “\ *Pumping Rate*\ ” or “\ *LPE*\ ” 
+wells (lowest pumping elevation wells) and “N/A” or “-99999999” 
+for wells that are defined as “\ *Specified Head*\ ” wells.
 Time-series data can also be exported to a .DAT file. After any
 modifications, make sure to click *“Apply”* to save the changes.
 
@@ -873,7 +873,7 @@ Group Definition:
 Constant-head or drain groups are added by clicking the “\ *Add*\ ”
 button at the top of the dialog box. With the drop-down box (Figure
 7.32), next to the *“Activate”* checkbox select either *“Constant
-Head”* or *“Drain”* to define the type of boundary condition thegroup will be. 
+Head”* or *“Drain”* to define the type of boundary condition the group will be. 
 Each group added will appear in the “\ *Groups*\ ” drop-down list shown 
 in Figure 7.33. The names of each group can be
 modified as desired, as shown in Figure 7.33. Use the “\ *Delete*\ ”
@@ -1095,7 +1095,7 @@ file, as **MINEDW** does not stop running when this occurs.
 
 *“Pumping Rate”* wells have the option to move to the first wet node if
 the node where the pump is located becomes dry. This option should be
-exercised with care, as ***MINEDW*** will continue to move the pumping
+exercised with care, as **MINEDW** will continue to move the pumping
 node lower, which may result in the pumping node moving to the bottom of
 the model domain. A pumping node located at the bottom of the model
 domain (on a no-flux boundary) is incorrect, as pumping stresses should
@@ -1240,7 +1240,7 @@ to another river, the elevation of the node that forms the river
 connection is used as the reference elevation rather than the *“First
 (Lowest) Node”* and “\ *Bed Elev.”*
 
-For each river, the “\ *Manning Coefficient.*\ ” river channel
+For each river, the “\ *Manning Coefficient,*\ ” river channel
 “\ *Width,*\ ” “\ *First (Lowest) Node,*\ ” *“Bed Elev.,”* and bed
 hydraulic conductivity must be defined. The following is an explanation
 of the required information:
@@ -1943,7 +1943,7 @@ lake. These options are described in more detail below.
 
    Figure 7.56 The “\ *Pit Lake*\ ” tab
 
-The following are options are available in the *“Pit Lake”* tab:
+The following options are available in the *“Pit Lake”* tab:
 
 Start Date: 
 	Date of when pit-lake infilling will begin. This date must
@@ -1964,7 +1964,7 @@ Evaporation:
 # of Stages: 
 	Number of stages to be used in the simulation. The user
 	must specify the “\ *Elevation”* of each stage in the dialog box below
-	the input for the number of stages. ***MINEDW*** will calculate the
+	the input for the number of stages. **MINEDW** will calculate the
 	*“Area”* and “\ *Volume”* of the stages.
 
 Create: 
@@ -2002,7 +2002,7 @@ conductivity may change during the simulation period.
 
 To create a ZOR for an open pit, select “\ *Open Pit*\ ” from the
 “\ *Mining*\ ” drop-down menu. Select the open-pit plan from the
-drop-down box on the upper left-hand corner of the dialog box and then
+drop-down box in the upper left-hand corner of the dialog box and then
 select the “\ *ZOR*\ ” tab (Figure 7.58).
 
 .. figure:: media/figure_7_58_manual.png
@@ -2037,7 +2037,7 @@ in the simulation are “\ *Layer#1”* and *“Layer#2.”* The layer added by
 **MINEDW**, “\ *Layer#3,”* is not used\ *.* Alternatively, the ZOR
 could have been created by creating one ZOR layer, entering “50%” for
 the layer, and then clicking “\ *Search Zone.”* In this scenario, the
-layer created by **MINED*** is used and accounts for the remaining 50%
+layer created by **MINEDW** is used and accounts for the remaining 50%
 of the ZOR (Figure 7.59b). Also, it is important to remember that, when
 **MINEDW** searches for geological units within the ZOR, it displays
 all the units for each layer even though the unit may not form part of
@@ -2384,7 +2384,7 @@ tab with the necessary input.
    :height: 5.41742in
    :align: center
 
-   Figure 7.68 The “\ *Recover*\ ” tab of the “\ *Dewatering and
+   Figure 7.68 The “\ *Backfill*\ ” tab of the “\ *Dewatering and
    Underground Mining*\ ” dialog box
 
 The *“Backfill”* tab in the *“Dewatering and Underground Mining”* dialog

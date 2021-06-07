@@ -15,7 +15,7 @@ MINEDW User Manual
 
 **MINEDW** is used at more than 50 mines throughout the world for mining-related applications in diverse hydrogeologic and climatic conditions.
 
-Developed from FEMFLOW3D, **MINEDW** was validated by Sandia National Laboratories in 1998 and has been used at more than 50 mines world wide in diverse hydrogeologic and climatic conditions.
+Developed from FEMFLOW3D, **MINEDW** was validated by Sandia National Laboratories in 1998.
 
 .. raw:: html
 
@@ -23,11 +23,9 @@ Developed from FEMFLOW3D, **MINEDW** was validated by Sandia National Laboratori
     <iframe width="543" height="305" src="https://www.youtube.com/embed/GEudjsJKHWA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-* Used at more than 50 mines throughout the world for mining-related issues in diverse hydrogeologic and climatic conditions;
-
 * Simulates open-pit and underground mining for dewatering design and input to slope-stability analysis;
 
-* 3-D graphic representations of geology, model domain, pit geometry, groundwater heads, and pore pressures;
+* 3D graphic representations of geology, model domain, pit geometry, groundwater heads, and pore pressures;
 
 * Simulates excavation and subsequent pit-lake infilling to represent different mining schedules; and
 

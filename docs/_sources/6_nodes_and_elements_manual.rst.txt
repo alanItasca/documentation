@@ -119,7 +119,7 @@ selected using the following approaches:
    selection box around selected elements will deselect the elements.
 
 -  Click the “\ *Select*\ ” tool and then click the “\ *Select with
-   Polygon*\ ” tool, shown in Table 6.1 Use the “\ *Select with
+   Polygon*\ ” tool, shown in Table 6.1. Use the “\ *Select with
    Polygon*\ ” tool to select multiple elements in a desired area in the
    model domain. To close the polygon, press the [Enter] key.
 
@@ -313,7 +313,7 @@ After the nodes are selected, press the [Enter] key to open the
 Several operations can be performed on the selected nodes.
 
 -  Assign boundary conditions (constant head, variable flux, or pumping
-   wells), as shown in Figure 6.9 After selecting one of the options,
+   wells), as shown in Figure 6.9. After selecting one of the options,
    the number of layers to be assigned with the boundary conditions
    should also be specified, as discussed later in this section.
 
@@ -324,7 +324,7 @@ Several operations can be performed on the selected nodes.
 
    Figure 6.9 Assign boundary conditions to selected nodes
 
--  Change the elevation of the selected nodes, as shown in Figure 6.10
+-  Change the elevation of the selected nodes, as shown in Figure 6.10.
 
 .. figure:: media/figure_6_10_manual.png
    :width: 2.81364in

@@ -1,8 +1,7 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<html class="writer-html5" lang="en" >
 <head>
   <meta charset="utf-8">
   
@@ -12,28 +11,31 @@
   
 
   
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+
+  
   
   
   
 
   
-  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
         <script src="_static/jquery.js"></script>
         <script src="_static/underscore.js"></script>
         <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
         <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
     
-
-  
-  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="8.0 Model Execution" href="8_model_execution_manual.html" />
@@ -63,7 +65,7 @@
           
 
           
-            <a href="index.html" class="icon icon-home"> MINEDW 3.06
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> MINEDW 3.06
           
 
           
@@ -192,6 +194,7 @@ button.gsc-search-button
           
         </div>
 
+        
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
           
             
@@ -452,6 +455,7 @@ button.gsc-search-button
             
           
         </div>
+        
       </div>
     </nav>
 
@@ -490,7 +494,7 @@ button.gsc-search-button
 
   <ul class="wy-breadcrumbs">
     
-      <li><a href="index.html">Docs</a> &raquo;</li>
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
         
       <li>7.0 Model Input Data</li>
     
@@ -548,7 +552,7 @@ required information for project properties is described below.</p>
 <dl class="simple">
 <dt>Project Name:</dt><dd><p>The user-defined name of the project.</p>
 </dd>
-<dt>Output File Name:</dt><dd><p>The prefix assigned to all <strong>*MINEDW*</strong>-created
+<dt>Output File Name:</dt><dd><p>The prefix assigned to all <strong>MINEDW</strong>-created
 data-set files (e.g., the model file would be labeled
 “<em>TR_model.dat</em>” when “<em>TR_”</em> is the output file name)<em>.</em></p>
 </dd>
@@ -1157,12 +1161,12 @@ the entire model-simulation time period.</p>
 <a class="reference internal image-reference" href="_images/figure_7_31_manual.png"><img alt="_images/figure_7_31_manual.png" src="_images/figure_7_31_manual.png" style="width: 2.23585in; height: 0.38018in;" /></a>
 <p class="caption"><span class="caption-text">Figure 7.31 Time-series input options</span><a class="headerlink" href="#id31" title="Permalink to this image">¶</a></p>
 </div>
-<p>Time-series data can be imported from a text file (the format for the
-text file is described in Appendix B). The plot on the left-hand side
-displays the time-series data. For any period during which the pump is
-turned off, enter “0” for wells that are defined as “<em>Pumping Rate</em>”
-or “<em>LPE</em>” wells (lowest pumping elevation wells) and “N/A” or
-“-99999999” for wells that are defined as “<em>Specified Head</em>” wells.
+<p>Time-series data can be imported from a text file (Appendix B).
+The plot on the left-hand side displays the time-series data.
+For any period during which the pump is turned off, enter “0”
+for wells that are defined as “<em>Pumping Rate</em>” or “<em>LPE</em>”
+wells (lowest pumping elevation wells) and “N/A” or “-99999999”
+for wells that are defined as “<em>Specified Head</em>” wells.
 Time-series data can also be exported to a .DAT file. After any
 modifications, make sure to click <em>“Apply”</em> to save the changes.</p>
 </div>
@@ -1220,7 +1224,7 @@ boundary conditions.</p>
 <p>Constant-head or drain groups are added by clicking the “<em>Add</em>”
 button at the top of the dialog box. With the drop-down box (Figure
 7.32), next to the <em>“Activate”</em> checkbox select either <em>“Constant
-Head”</em> or <em>“Drain”</em> to define the type of boundary condition thegroup will be.
+Head”</em> or <em>“Drain”</em> to define the type of boundary condition the group will be.
 Each group added will appear in the “<em>Groups</em>” drop-down list shown
 in Figure 7.33. The names of each group can be
 modified as desired, as shown in Figure 7.33. Use the “<em>Delete</em>”
@@ -1412,7 +1416,7 @@ model simulation, but it is the user’s responsibility to check this
 file, as <strong>MINEDW</strong> does not stop running when this occurs.</p>
 <p><em>“Pumping Rate”</em> wells have the option to move to the first wet node if
 the node where the pump is located becomes dry. This option should be
-exercised with care, as <strong>*MINEDW*</strong> will continue to move the pumping
+exercised with care, as <strong>MINEDW</strong> will continue to move the pumping
 node lower, which may result in the pumping node moving to the bottom of
 the model domain. A pumping node located at the bottom of the model
 domain (on a no-flux boundary) is incorrect, as pumping stresses should
@@ -1538,7 +1542,7 @@ elevations. When using “<em>Constant Slope,”</em> if the river is connected
 to another river, the elevation of the node that forms the river
 connection is used as the reference elevation rather than the <em>“First
 (Lowest) Node”</em> and “<em>Bed Elev.”</em></p>
-<p>For each river, the “<em>Manning Coefficient.</em>” river channel
+<p>For each river, the “<em>Manning Coefficient,</em>” river channel
 “<em>Width,</em>” “<em>First (Lowest) Node,</em>” <em>“Bed Elev.,”</em> and bed
 hydraulic conductivity must be defined. The following is an explanation
 of the required information:</p>
@@ -2110,7 +2114,7 @@ lake. These options are described in more detail below.</p>
 <a class="reference internal image-reference" href="_images/figure_7_56_manual.png"><img alt="_images/figure_7_56_manual.png" src="_images/figure_7_56_manual.png" style="width: 6.00000in; height: 4.05707in;" /></a>
 <p class="caption"><span class="caption-text">Figure 7.56 The “<em>Pit Lake</em>” tab</span><a class="headerlink" href="#id56" title="Permalink to this image">¶</a></p>
 </div>
-<p>The following are options are available in the <em>“Pit Lake”</em> tab:</p>
+<p>The following options are available in the <em>“Pit Lake”</em> tab:</p>
 <dl class="simple">
 <dt>Start Date:</dt><dd><p>Date of when pit-lake infilling will begin. This date must
 be after mining has ended and equal to or later than the backfilling
@@ -2127,7 +2131,7 @@ Lake Elevation</em>” greater than the pit bottom.</p>
 </dd>
 <dt># of Stages:</dt><dd><p>Number of stages to be used in the simulation. The user
 must specify the “<em>Elevation”</em> of each stage in the dialog box below
-the input for the number of stages. <strong>*MINEDW*</strong> will calculate the
+the input for the number of stages. <strong>MINEDW</strong> will calculate the
 <em>“Area”</em> and “<em>Volume”</em> of the stages.</p>
 </dd>
 <dt>Create:</dt><dd><p>The <em>“Create”</em> function will automatically calculate the area
@@ -2158,7 +2162,7 @@ freeze-thaw conditions, or other scenarios in which hydraulic
 conductivity may change during the simulation period.</p>
 <p>To create a ZOR for an open pit, select “<em>Open Pit</em>” from the
 “<em>Mining</em>” drop-down menu. Select the open-pit plan from the
-drop-down box on the upper left-hand corner of the dialog box and then
+drop-down box in the upper left-hand corner of the dialog box and then
 select the “<em>ZOR</em>” tab (Figure 7.58).</p>
 <div class="figure align-center" id="id58">
 <a class="reference internal image-reference" href="_images/figure_7_58_manual.png"><img alt="_images/figure_7_58_manual.png" src="_images/figure_7_58_manual.png" style="width: 5.04624in; height: 4.44298in;" /></a>
@@ -2188,7 +2192,7 @@ in the simulation are “<em>Layer#1”</em> and <em>“Layer#2.”</em> The lay
 <strong>MINEDW</strong>, “<em>Layer#3,”</em> is not used<em>.</em> Alternatively, the ZOR
 could have been created by creating one ZOR layer, entering “50%” for
 the layer, and then clicking “<em>Search Zone.”</em> In this scenario, the
-layer created by <strong>MINED*</strong> is used and accounts for the remaining 50%
+layer created by <strong>MINEDW</strong> is used and accounts for the remaining 50%
 of the ZOR (Figure 7.59b). Also, it is important to remember that, when
 <strong>MINEDW</strong> searches for geological units within the ZOR, it displays
 all the units for each layer even though the unit may not form part of
@@ -2473,7 +2477,7 @@ pumping or recharge rates are defined. Figure 7.66 shows the <em>“Recover”</
 tab with the necessary input.</p>
 <div class="figure align-center" id="id68">
 <a class="reference internal image-reference" href="_images/figure_7_68_manual.png"><img alt="_images/figure_7_68_manual.png" src="_images/figure_7_68_manual.png" style="width: 4.35477in; height: 5.41742in;" /></a>
-<p class="caption"><span class="caption-text">Figure 7.68 The “<em>Recover</em>” tab of the “<em>Dewatering and
+<p class="caption"><span class="caption-text">Figure 7.68 The “<em>Backfill</em>” tab of the “<em>Dewatering and
 Underground Mining</em>” dialog box</span><a class="headerlink" href="#id68" title="Permalink to this image">¶</a></p>
 </div>
 <p>The <em>“Backfill”</em> tab in the <em>“Dewatering and Underground Mining”</em> dialog
@@ -2522,11 +2526,19 @@ groups must be added to the <em>“Drain Group Used”</em> window on the
 
   <div role="contentinfo">
     <p>
+        
         &copy; Copyright 2020, Itasca Denver, Inc.
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -2537,7 +2549,6 @@ groups must be added to the <em>“Drain Group Used”</em> window on the
 
   </div>
   
-
 
   <script type="text/javascript">
       jQuery(function () {

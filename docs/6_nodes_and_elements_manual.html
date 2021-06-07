@@ -1,8 +1,7 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<html class="writer-html5" lang="en" >
 <head>
   <meta charset="utf-8">
   
@@ -12,28 +11,31 @@
   
 
   
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+
+  
   
   
   
 
   
-  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
         <script src="_static/jquery.js"></script>
         <script src="_static/underscore.js"></script>
         <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
         <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
     
-
-  
-  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="7.0 Model Input Data" href="7_model_input_data_manual.html" />
@@ -63,7 +65,7 @@
           
 
           
-            <a href="index.html" class="icon icon-home"> MINEDW 3.06
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> MINEDW 3.06
           
 
           
@@ -192,6 +194,7 @@ button.gsc-search-button
           
         </div>
 
+        
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
           
             
@@ -452,6 +455,7 @@ button.gsc-search-button
             
           
         </div>
+        
       </div>
     </nav>
 
@@ -490,7 +494,7 @@ button.gsc-search-button
 
   <ul class="wy-breadcrumbs">
     
-      <li><a href="index.html">Docs</a> &raquo;</li>
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
         
       <li>6.0 Nodes and Elements</li>
     
@@ -625,7 +629,7 @@ key.</p></li>
 select the elements in a rectangle. Right-clicking and dragging a
 selection box around selected elements will deselect the elements.</p></li>
 <li><p>Click the “<em>Select</em>” tool and then click the “<em>Select with
-Polygon</em>” tool, shown in Table 6.1 Use the “<em>Select with
+Polygon</em>” tool, shown in Table 6.1. Use the “<em>Select with
 Polygon</em>” tool to select multiple elements in a desired area in the
 model domain. To close the polygon, press the [Enter] key.</p></li>
 <li><p>Add a point, polyline, or polygon file to the View Pane using the
@@ -780,7 +784,7 @@ Press the [ESC] key to deselect all selected nodes.</p></li>
 <p>Several operations can be performed on the selected nodes.</p>
 <ul class="simple">
 <li><p>Assign boundary conditions (constant head, variable flux, or pumping
-wells), as shown in Figure 6.9 After selecting one of the options,
+wells), as shown in Figure 6.9. After selecting one of the options,
 the number of layers to be assigned with the boundary conditions
 should also be specified, as discussed later in this section.</p></li>
 </ul>
@@ -789,7 +793,7 @@ should also be specified, as discussed later in this section.</p></li>
 <p class="caption"><span class="caption-text">Figure 6.9 Assign boundary conditions to selected nodes</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
 </div>
 <ul class="simple">
-<li><p>Change the elevation of the selected nodes, as shown in Figure 6.10</p></li>
+<li><p>Change the elevation of the selected nodes, as shown in Figure 6.10.</p></li>
 </ul>
 <div class="figure align-center" id="id10">
 <a class="reference internal image-reference" href="_images/figure_6_10_manual.png"><img alt="_images/figure_6_10_manual.png" src="_images/figure_6_10_manual.png" style="width: 2.81364in; height: 0.28136in;" /></a>
@@ -851,11 +855,19 @@ deselect all the selected elements before editing, press the [ESC] key.</p>
 
   <div role="contentinfo">
     <p>
+        
         &copy; Copyright 2020, Itasca Denver, Inc.
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -866,7 +878,6 @@ deselect all the selected elements before editing, press the [ESC] key.</p>
 
   </div>
   
-
 
   <script type="text/javascript">
       jQuery(function () {

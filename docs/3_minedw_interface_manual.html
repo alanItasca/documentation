@@ -1,8 +1,7 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<html class="writer-html5" lang="en" >
 <head>
   <meta charset="utf-8">
   
@@ -12,28 +11,31 @@
   
 
   
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+
+  
   
   
   
 
   
-  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
         <script src="_static/jquery.js"></script>
         <script src="_static/underscore.js"></script>
         <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
         <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
     
-
-  
-  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="4.0 Importing Data Sets" href="4_importing_data_sets_manual.html" />
@@ -63,7 +65,7 @@
           
 
           
-            <a href="index.html" class="icon icon-home"> MINEDW 3.06
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> MINEDW 3.06
           
 
           
@@ -192,6 +194,7 @@ button.gsc-search-button
           
         </div>
 
+        
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
           
             
@@ -452,6 +455,7 @@ button.gsc-search-button
             
           
         </div>
+        
       </div>
     </nav>
 
@@ -490,7 +494,7 @@ button.gsc-search-button
 
   <ul class="wy-breadcrumbs">
     
-      <li><a href="index.html">Docs</a> &raquo;</li>
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
         
       <li>3.0 MINEDW Interface</li>
     
@@ -541,7 +545,7 @@ components:</p>
 <h2>3.1 View Pane<a class="headerlink" href="#view-pane" title="Permalink to this headline">¶</a></h2>
 <p>View Panes are used to store plots and function as a window that can be
 opened and closed. The View Pane without any plot items is defined as
-the base View Pane as shown in Figure 3.1 The base View Pane is a
+the base View Pane, as shown in Figure 3.1. The base View Pane is a
 unique View Pane (there is only one) in that it is permanent and cannot
 be closed, although it can be hidden from view.</p>
 <p>The assembly of plot items within a View Pane is performed using the
@@ -549,7 +553,7 @@ Control Panel, which provides tools that can be used to define the
 contents of the plot (plot items) and the appearance of those items. A
 description of the Control Panel is provided in later sections. Plots
 typically consist of a model mesh, geologic setting, wells, boundary
-conditions, model outputs, and legend, as shown in Figure 3.2 Note that
+conditions, model outputs, and legend, as shown in Figure 3.2. Note that
 the Control Panel is turned off in Figure 3.2 in order to illustrate the
 View Pane.</p>
 <p>The plot items in a specific View Pane can be saved in views using the
@@ -568,15 +572,15 @@ deleted using this menu.</p>
 <strong>MINEDW</strong> GUI. It contains 11 items: 1) “<em>File</em>,” 2) “<em>Project</em>,”
 3) “<em>Mesh</em>,” 4) “<em>BCs</em>,” 5) “<em>Mining</em>,” 6) “<em>Run</em>,” 7)
 “<em>Results</em>,” 8) “<em>View</em>,” 9) “<em>Tools</em>,” 10) “<em>Windows</em>,” and 11)
-“<em>Help</em>,” as shown in Figure 3.3</p>
+“<em>Help</em>,” as shown in Figure 3.3.</p>
 <div class="figure align-center" id="id3">
 <a class="reference internal image-reference" href="_images/figure_3_3_manual.png"><img alt="_images/figure_3_3_manual.png" src="_images/figure_3_3_manual.png" style="width: 5.46428in; height: 0.37500in;" /></a>
 <p class="caption"><span class="caption-text">Figure 3.3 Main Menu banner</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
 <div class="section" id="the-file-menu">
 <h3>3.2.1 The File Menu<a class="headerlink" href="#the-file-menu" title="Permalink to this headline">¶</a></h3>
-<p>The “<em>File</em>” drop-down menu contains the items shown in Figure 3.4
-Detailed descriptions of each menu item are also provided in Figure 3.4</p>
+<p>The “<em>File</em>” drop-down menu contains the items shown in Figure 3.4.
+Detailed descriptions of each menu item are also provided in Figure 3.4.</p>
 <div class="figure align-center" id="id4">
 <a class="reference internal image-reference" href="_images/figure_3_4_manual.png"><img alt="_images/figure_3_4_manual.png" src="_images/figure_3_4_manual.png" style="width: 3.62551in; height: 3.16711in;" /></a>
 <p class="caption"><span class="caption-text">Figure 3.4 “<em>File</em>” drop-down menu</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
@@ -587,7 +591,7 @@ Detailed descriptions of each menu item are also provided in Figure 3.4</p>
 <dt>Open Project:</dt><dd><p>Opens an existing project.</p>
 </dd>
 <dt>Save Project:</dt><dd><p>Saves the current project file. This menu item remains inactive
-unless there is a change to the modeling components such as geologic
+unless there is a change to the modeling components, such as geologic
 setting, boundary condition, etc.</p>
 </dd>
 <dt>Save Project As:</dt><dd><p>Saves a copy of the current project file using a different file name.</p>
@@ -598,7 +602,7 @@ setting, boundary condition, etc.</p>
 </dd>
 <dt>Export Base:</dt><dd><p>Exports the base image as a bitmap, .DXF, .VRML, postscript, or .SVG file.</p>
 </dd>
-<dt>Import:</dt><dd><p>Imports a <strong>MINEDW</strong> project, <em>a</em> <em>FEFLOW</em> data set or a
+<dt>Import:</dt><dd><p>Imports a <strong>MINEDW</strong> project, <em>a</em> <em>FEFLOW</em> data set, or a
 stereolithography file containing a finite-element mesh. After the
 “<em>Import</em>” button is clicked, an “<em>Import File</em>” dialog box
 opens and provides four options. A user can import a <strong>MINEDW</strong>
@@ -683,7 +687,7 @@ function is provided in Section 3.3.</p>
 <div class="section" id="the-mesh-menu">
 <h3>3.2.3 The Mesh Menu<a class="headerlink" href="#the-mesh-menu" title="Permalink to this headline">¶</a></h3>
 <p>The “<em>Mesh</em>” drop-down menu is available from the Main Menu banner
-and includes the items shown in Figure 3.7 Detailed information about
+and includes the items shown in Figure 3.7. Detailed information about
 these menu items is available in Section 7.2.</p>
 <div class="figure align-center" id="id7">
 <a class="reference internal image-reference" href="_images/figure_3_7_manual.png"><img alt="_images/figure_3_7_manual.png" src="_images/figure_3_7_manual.png" style="width: 1.70857in; height: 0.95847in;" /></a>
@@ -778,7 +782,7 @@ caving. Details about ZORs for caving can be found in Section 7.6.6.</p>
 </div>
 <div class="section" id="the-run-menu">
 <h3>3.2.6 The Run Menu<a class="headerlink" href="#the-run-menu" title="Permalink to this headline">¶</a></h3>
-<p>The “<em>Run</em>” drop-down menu contains the items listed in Figure 3.10
+<p>The “<em>Run</em>” drop-down menu contains the items listed in Figure 3.10.
 Details about these menu items can be found in Section 8.</p>
 <div class="figure align-center" id="id10">
 <a class="reference internal image-reference" href="_images/figure_3_10_manual.png"><img alt="_images/figure_3_10_manual.png" src="_images/figure_3_10_manual.png" style="width: 1.55230in; height: 0.95847in;" /></a>
@@ -797,7 +801,7 @@ are used in the <strong>MINEDW</strong> calculation.</p>
 <div class="section" id="the-results-menu">
 <h3>3.2.7 The Results Menu<a class="headerlink" href="#the-results-menu" title="Permalink to this headline">¶</a></h3>
 <p>The “<em>Results</em>” drop-down menu contains the items shown in Figure
-3.11 Details about these menu items can be found in Section 9.</p>
+3.11. Details about these menu items can be found in Section 9.</p>
 <div class="figure align-center" id="id11">
 <a class="reference internal image-reference" href="_images/figure_3_11_manual.png"><img alt="_images/figure_3_11_manual.png" src="_images/figure_3_11_manual.png" style="width: 2.48586in; height: 3.25000in;" /></a>
 <p class="caption"><span class="caption-text">Figure 3.11 The “<em>Results</em>” drop-down menu</span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
@@ -920,7 +924,7 @@ To revert back to the default layout of <strong>MINEDW,</strong> use the
 “<em>Restore Layout”</em> option.</p>
 </dd>
 </dl>
-<p>The “<strong>MINEDW</strong> Options*” dialog box (Figure 3.14) presents the
+<p>The “<strong>MINEDW</strong> Options” dialog box (Figure 3.14) presents the
 options listed below. The “<em>Display</em>” and “<em>Movie</em>” tabs are
 discussed in Sections 3.4.1.1 to 3.4.1.3.</p>
 <div class="figure align-center" id="id14">
@@ -1160,7 +1164,7 @@ model domain.</p>
 <h4>3.4.1.1 Legend<a class="headerlink" href="#legend" title="Permalink to this headline">¶</a></h4>
 <p>“<em>Legend</em>” is a local copy of the legend’s settings that are in
 effect for the current plot. The legend is displayed on the Legend Pane.
-On top of the Legend Pane is the <strong>*MINEDW*</strong> version and time stamp
+On top of the Legend Pane is the <strong>MINEDW</strong> version and time stamp
 when the plot was created. There are two alternatives for setting the
 legend:</p>
 <ul class="simple">
@@ -1194,7 +1198,7 @@ plot item as a percentage of the available rendering area. It uses a
 scale of 0 to 100, in which 0 indicates the bottom-left corner and 100
 indicates the top-right corner. Continuous adjustment of the upward
 vertical position once the top of the Legend Panel reaches the top of
-View Pane will reduce the height of the Legend Panel. The
+the View Pane will reduce the height of the Legend Panel. The
 “<em>Position</em>” setting is only applicable if the legend
 “<em>Placement</em>” attribute is set to “<em>Floating</em>.”</p>
 </dd>
@@ -1909,12 +1913,12 @@ contains a table of attributes associated with the features defined in a
 shapefile.</p>
 </dd>
 <dt>Coordinate Info:</dt><dd><p>Displays the contents of a .PRJ file (a .PRJ
-shapefile is not related to the .PRJ file created by <strong>*MINEDW*</strong>). A
+shapefile is not related to the .PRJ file created by <strong>MINEDW</strong>). A
 .PRJ file contains information about the coordinate system and
 projection in which the shapefile features are defined. A .PRJ file may
 or may not be present.</p>
 </dd>
-<dt>Group by:*</dt><dd><p>Specifies an attribute of the dBASE file with which to group
+<dt>Group by:</dt><dd><p>Specifies an attribute of the dBASE file with which to group
 features. Each group is given a unique color and label in the legend and
 view. To display all features as separate entities, select the last item
 (Record ID) from the drop-down menu.</p>
@@ -2006,7 +2010,7 @@ difference in 3-D.</p>
 <dt>Isoline:</dt><dd><p>Displays isolines for elevation, pore pressure, head, head
 difference, water table, and drawdown.</p>
 </dd>
-<dt>IsoSurface:</dt><dd><p>Displays isosurfaces for elevation, head, pore pressure,
+<dt>Isosurface:</dt><dd><p>Displays isosurfaces for elevation, head, pore pressure,
 and head difference.</p>
 </dd>
 </dl>
@@ -2085,7 +2089,7 @@ in the legend. At a minimum, all captions have “<em>Title</em>” or
 </dl>
 <p><strong>Isoline</strong></p>
 <p>The attributes of “<em>Isoline</em>” are the same as those described in the
-“<em>2D Contour/3D Contour</em>” section with the exception of following:</p>
+“<em>2D Contour and 3D Contour</em>” section with the exception of the following:</p>
 <dl class="simple">
 <dt>Cutplane:</dt><dd><p>Though a cutplane is not very meaningful for “<em>Isoline</em>,”
 a user can generate a plane through the “<em>Cutplane</em>” option from
@@ -2097,7 +2101,7 @@ display.</p>
 </dl>
 <p><strong>Isosurface</strong></p>
 <p>The attributes of “<em>Isosurface</em>” are the same as those described in
-the “<em>2D Contour/3D Contour</em>” section with the exception of
+the “<em>2D Contour and 3D Contour</em>” section with the exception of
 “<em>Cutplane</em>.” A cutplane can only be created through the “<em>Plane</em>”
 option under “<em>Cutting Planes</em>” in “<em>List</em>.”</p>
 </div>
@@ -2415,11 +2419,19 @@ cursor.</p>
 
   <div role="contentinfo">
     <p>
+        
         &copy; Copyright 2020, Itasca Denver, Inc.
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -2430,7 +2442,6 @@ cursor.</p>
 
   </div>
   
-
 
   <script type="text/javascript">
       jQuery(function () {

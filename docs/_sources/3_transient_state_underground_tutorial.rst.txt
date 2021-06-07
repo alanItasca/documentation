@@ -185,7 +185,7 @@ group *“2001”* should be activated on 1 January 2001 and so on. All the
 drain groups should cease operation on 1 January 2010 to simulate the
 end of mining. To turn off the drain nodes, enter “\ *˗9,999,999*\ ” for
 the drain level in the time-series window. Now that the underground mine
-has been added to the model, they should be added as part of the mining
+has been added to the model, the drain nodes should be added as part of the mining
 simulation.
 
 Adding the created drain nodes to the mining simulation will instruct
@@ -214,7 +214,7 @@ the following section for running the underground mining simulation.
    :height: 5.42in
    :align: center
 
-   Figure 3.7 Drain groups used to simulated underground mining
+   Figure 3.7 Drain groups used to simulate underground mining
 
 3.5 Running the Model
 ---------------------
@@ -250,7 +250,7 @@ underground workings. This information is recorded in the file
 “\*.\ *MNE*\ ” extension in the folder where **MINEDW** was executed.
 To plot seepage to the underground workings below the cave zone, open
 the “\*.\ *MNE*\ ” file using Microsoft\ :sup:`®` Excel or other
-plotting software. Figure 3. 9 shows total inflow to the underground
+plotting software. Figure 3.9 shows total inflow to the underground
 workings.
 
 .. figure:: media/figure_3_9_tutorial.png

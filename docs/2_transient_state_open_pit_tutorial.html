@@ -1,8 +1,7 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<html class="writer-html5" lang="en" >
 <head>
   <meta charset="utf-8">
   
@@ -12,28 +11,31 @@
   
 
   
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+
+  
   
   
   
 
   
-  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
         <script src="_static/jquery.js"></script>
         <script src="_static/underscore.js"></script>
         <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
         <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
     
-
-  
-  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Tutorial 3 - Underground Mining" href="3_transient_state_underground_tutorial.html" />
@@ -63,7 +65,7 @@
           
 
           
-            <a href="index.html" class="icon icon-home"> MINEDW 3.06
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> MINEDW 3.06
           
 
           
@@ -192,6 +194,7 @@ button.gsc-search-button
           
         </div>
 
+        
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
           
             
@@ -452,6 +455,7 @@ button.gsc-search-button
             
           
         </div>
+        
       </div>
     </nav>
 
@@ -490,7 +494,7 @@ button.gsc-search-button
 
   <ul class="wy-breadcrumbs">
     
-      <li><a href="index.html">Docs</a> &raquo;</li>
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
         
       <li>Tutorial 2 - Open Pit Mining</li>
     
@@ -637,7 +641,7 @@ files “<em>MINE_SCHEDULE.DAT</em>,” “<em>ULTIMATE.BLN,</em>” “<em>YEAR
 “<em>YEAR2.DAT</em>,” etc. were moved from “<em>INPUT/OPENPIT</em>” to the main
 simulation directory). Next, click the <em>“Options…”</em> button to open the
 <em>“Mining Plan Interpolation”</em> dialog box. Uncheck the box next to <em>“Not
-interpolated if no data found in Rang.”</em> This will exclude locations
+interpolated if no data found in Range.”</em> This will exclude locations
 that do not have associated elevation data. Click <em>“OK”</em> on the <em>“Mining
 Plan Interpolation”</em> dialog box to accept the changes and then click
 “<em>OK</em>” on the <em>“Create Mining Plan”</em> dialog box to create the mining
@@ -701,7 +705,7 @@ in thickness (i.e., each layer will be 50% of the ZOR) (see Figure
 <a class="reference internal image-reference" href="_images/figure_2_9_tutorial.png"><img alt="_images/figure_2_9_tutorial.png" src="_images/figure_2_9_tutorial.png" style="width: 6.2in; height: 5.68in;" /></a>
 <p class="caption"><span class="caption-text">Figure 2.9 The “<em>Open Pit</em>” dialog box showing the “<em>ZOR</em>” tab</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
 </div>
-<p>Next, click “<em>Search ZOR Unit,</em>” located at the bottom of the dialog
+<p>Next, click “<em>Search ZOR Units,</em>” located at the bottom of the dialog
 box. The geological zones that lie within the defined ZOR will appear
 (Figure 2.9). The numbers next to each geological unit represent the
 factor by which the <em>K</em> in each ZOR layer will change. The default is 1,
@@ -865,7 +869,7 @@ pumping off, set the pumping rate to -9,999,999 in the last pumping-rate
 record of the dialog box. It is important that the last pumping-rate
 record be a large negative number if pumping is to be turned off. If it
 is not the last record or it is not a large negative number,
-<strong>*MINEDW*</strong> will not recognize that the well is to be turned off and
+<strong>MINEDW</strong> will not recognize that the well is to be turned off and
 will continue to extract water at that well. Pumping in this tutorial
 should end on or before the end of mining (Figure 2.17). If the pumping
 rate changes with time, go to the lower right window shown in Figure
@@ -909,8 +913,8 @@ which will deactivate the “<em>Specified Head</em>” well.</p>
 <p>Variable-Flux Boundary</p>
 <p>A “<em>Variable-Flux</em>” boundary condition is assigned from the top of
 the model to the bottom along portions of the model domain. Ensure that
-Layer 5 is selected by clicking on the “<em>Attributes</em>” ab in the
-“<em>Control Panel</em>” pane, checking that “<em>Layer</em>” is set to 5, as
+Layer 5 is selected by clicking on the “<em>Attributes</em>” tab in the
+“<em>Control Panel</em>” pane and checking that “<em>Layer</em>” is set to 5, as
 shown in Figure 2.19.</p>
 <div class="figure align-center" id="id19">
 <a class="reference internal image-reference" href="_images/figure_2_19_tutorial.png"><img alt="_images/figure_2_19_tutorial.png" src="_images/figure_2_19_tutorial.png" style="width: 2.76in; height: 2.94in;" /></a>
@@ -1340,11 +1344,19 @@ location by repeating the steps described above.</p>
 
   <div role="contentinfo">
     <p>
+        
         &copy; Copyright 2020, Itasca Denver, Inc.
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -1355,7 +1367,6 @@ location by repeating the steps described above.</p>
 
   </div>
   
-
 
   <script type="text/javascript">
       jQuery(function () {

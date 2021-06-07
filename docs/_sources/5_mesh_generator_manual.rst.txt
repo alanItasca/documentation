@@ -28,8 +28,8 @@ Grasshopper window.
 
 From the Grasshopper window, open the “template.gh” file that is in the
 “\ *bin*\ ” directory of the installed **MINEDW** directory. A
-workflow will appear on the Grasshopper canvas, shown in Figure 5.1
-This workflow is designed to create a 2-D mesh for a typical
+workflow will appear on the Grasshopper canvas, shown in Figure 5.1.
+This workflow is designed to create a 2D mesh for a typical
 mining-related groundwater flow model. The workflow may be modified
 using the tools contained in *Rhino* and Grasshopper to suit any
 requirements.
@@ -49,9 +49,9 @@ generation using *Rhino* and Grasshopper.
 
    Figure 5.1 The Grasshopper mesh generator template
 
-The blocks shown in Figure 5-1 are called components. Each of the key
+The blocks shown in Figure 5.1 are called components. Each of the key
 components is labeled by number and will be explained in detail in
-Section 5.2 Components have input parameters on their left side and
+Section 5.2. Components have input parameters on their left side and
 output parameters on their right side. A component box is orange in
 color if it has a warning message. The message can be viewed in the
 comment box on top of the component. The user assigns features such as
@@ -192,7 +192,7 @@ ability to add regions of finer discretization.
 If the “\ *Maximum Area*\ ” block and “\ *Area*\ ” link in the
 “\ *Domain*\ ” block are connected, it also is only possible to set the
 maximum element area by connecting the grey slider to the left of the
-component, shown in Figure 5.3 The user can either use the slider to
+component, shown in Figure 5.3. The user can either use the slider to
 determine the value of the maximum area or double-click the grey area
 and enter the value.
 
@@ -262,7 +262,7 @@ in the “\ *Line*\ ” input parameter menu, shown in Figure 5.4b.
 
    Figure 5.4 The *“Fault*\ ” component: a) the component, b) the
    “\ *Line*\ ” input parameter menu, c) the “\ *Width*\ ” input parameter
-   menu.
+   menu
 
 The width of the fault is specified for each “\ *Fault*\ ” component by
 right-clicking on the “\ *Width*\ ” input parameter and selecting the
@@ -438,9 +438,9 @@ open-pit plans. The command allows the user to find the elevation of the
 pit at many x, y points without loss of accuracy due to interpolation.
 To install the function, go to the “\ *File*\ ” menu and select the
 “\ *Properties*\ ” option. The “\ *Document Properties*\ ” dialog box
-shown in Figure 5.12 will open. Chose the option “\ *Plug-ins*\ ” from
+shown in Figure 5.12 will open. Choose the option “\ *Plug-ins*\ ” from
 the list on the left side of the “\ *Document Properties*\ ” dialog box,
-circled in Figure 5.12 Click the “\ *Install*\ ” button and choose the
+circled in Figure 5.12. Click the “\ *Install*\ ” button and choose the
 “Drop.rhp” file. Make sure that “\ *Drop*\ ” is listed under “\ *All
 Plug-ins*\ ” and that the “\ *Enabled*\ ” box next to it is checked, as
 shown in Figure 5.12.

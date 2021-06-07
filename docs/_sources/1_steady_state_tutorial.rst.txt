@@ -156,7 +156,7 @@ right-click and drag within the layout.
    Figure 1.2 The default view ports in *Rhino*
 
 After importing the required files, the result should appear similar to
-Figure 1.3 The *“MODEL BOUNDARY”* must be a completely closed region in
+Figure 1.3. The *“MODEL BOUNDARY”* must be a completely closed region in
 order to generate a mesh. The *“OPEN PIT”* and “\ *TRANSITION ZONE”*
 (Figures 1.3 and 1.4) regions will contain a refined mesh and must be
 closed as well. The “\ *STREAM NETWORK”* represents a series of
@@ -337,7 +337,7 @@ saved the changes to the *Grasshopper* document, opening the
 
    Figure 1.9 The *Grasshopper*-generated mesh
 
-In order to finalize the mesh and export it in a format that is useable
+In order to finalize the mesh and export it in a format that is usable
 by **MINEDW**, the *Grasshopper*-generated mesh needs to be
 *“Bake[d].”* To do this, right-click on the *“MMesh”* component in
 *Grasshopper* and select *“Bake”* from the drop-down menu. An
@@ -428,17 +428,17 @@ Step 3. Defining Time Steps
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To define the time steps for the project, click “\ *Project*\ ” on the
-Main Menu banner, then select “\ *Time Steps.*\ ” The “\ *Set Up Time
-Step*\ ” dialog box (Figure 1.13) appears. Set the “\ *Maximum* *Time
+Main Menu banner, then select “\ *Time Steps.*\ ” The “\ *Setup Time
+Step*\ ” dialog box (Figure 1.13) appears. Set the “\ *Maximum # of Time
 Steps*\ ” to 100 or greater. Enter “31” for the *“Initial Time Step
 Length.”* For steady-state simulations, only the length of the first
 time step will be used. Each subsequent time step will be 1.2 times
 longer than the previous time step. For transient simulations, the
 multiplication factor is 1 and the time-step length is defined in the
-“\ *Set Up Time Step*\ ” dialog box for transient model runs. Ensure
+“\ *Setup Time Step*\ ” dialog box for transient model runs. Ensure
 that the *“# of Time Steps for This Simulation*\ ” slider is set to 100
 or greater and that the “\ *Start at Time Step*\ ” combo box is set to
-1. Click “\ *OK*\ ” to save the changes and close the *“Set Up Time
+1. Click “\ *OK*\ ” to save the changes and close the *“Setup Time
 Step”* dialog box.
 
 .. figure:: media/figure_1_13_tutorial.png
@@ -446,7 +446,7 @@ Step”* dialog box.
    :height: 4.12in
    :align: center
 
-   Figure 1.13 The “\ *Set Up Time Step*\ ” dialog box
+   Figure 1.13 The “\ *Setup Time Step*\ ” dialog box
 
 Step 4. Importing Ground-Surface Elevation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -957,7 +957,7 @@ Panel”* pane. Ensure that the *“Layer”* attribute under the
 the Main Menu banner. Using the “\ *Select*\ ” tool, select the nodes
 along the southwest perimeter as shown in Figure 1.42 and then press
 [Enter]. In the “\ *Assign Properties for Nodes*\ ” dialog box that
-appears, select “\ *Add to Constant Head Boundary*\ ” (Figure 1.43).
+appears, select “\ *Add to Constant-Head Boundary*\ ” (Figure 1.43).
 Next, select the *“MtBlock”* group from the drop-down menu that becomes
 active and then enter the bottommost layer in the box to the right next
 to *“From Current Layer.”* This will assign the constant-head boundary
@@ -968,7 +968,7 @@ from Layer 5 to the bottom of the model domain.
    :height: 3.91in
    :align: center
 
-   Figure 1.42 The View Pane with the selected constant head boundary
+   Figure 1.42 The View Pane with the selected constant-head boundary
    nodes
 
 Repeat the steps described above for the remaining perimeter nodes that
@@ -1011,7 +1011,7 @@ files may not be visible in the *“Import Text File”* dialog box because
 Excel by default looks for files that have a “.TXT” extension. To view
 all of the files in the directory through the *“Import Text File”*
 dialog box, select *“All Files (\*.\*)”* from the drop-down menu on the
-lower right-hand corner of the dialog box. Now that the all of the files
+lower right-hand corner of the dialog box. Now that all of the files
 that **MINEDW** created are visible, select the file named
 *“chead.dat,”* then click *“Open.”* Repeat these steps on the
 *“Input-node.FEM”* tab, but this time select the file labeled
@@ -1137,7 +1137,7 @@ The *“Tributary”* tab is used to define inflows to river reaches that
 come from outside of the model domain or from some other external
 source, such as a pipeline that discharges flow to a river. In this
 tutorial, two tributaries are simulated, one for River 5 and one for
-River 7. Although the tributary function can except temporally varying
+River 7. Although the tributary function can accept temporally varying
 inputs for a transient simulation, this tutorial will use constant
 inflow for both the steady-state and transient simulations. Figure 1.48
 shows the *“Tributary”* tab with the tributary for River 5 defined. To

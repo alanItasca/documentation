@@ -1,8 +1,7 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<html class="writer-html5" lang="en" >
 <head>
   <meta charset="utf-8">
   
@@ -12,28 +11,31 @@
   
 
   
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+
+  
   
   
   
 
   
-  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
         <script src="_static/jquery.js"></script>
         <script src="_static/underscore.js"></script>
         <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
         <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
     
-
-  
-  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="6.0 Nodes and Elements" href="6_nodes_and_elements_manual.html" />
@@ -63,7 +65,7 @@
           
 
           
-            <a href="index.html" class="icon icon-home"> MINEDW 3.06
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> MINEDW 3.06
           
 
           
@@ -192,6 +194,7 @@ button.gsc-search-button
           
         </div>
 
+        
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
           
             
@@ -452,6 +455,7 @@ button.gsc-search-button
             
           
         </div>
+        
       </div>
     </nav>
 
@@ -490,7 +494,7 @@ button.gsc-search-button
 
   <ul class="wy-breadcrumbs">
     
-      <li><a href="index.html">Docs</a> &raquo;</li>
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
         
       <li>5.0 Mesh Generator</li>
     
@@ -545,8 +549,8 @@ double-click the “<em>Launch Grasshopper</em>” tool icon to open the
 Grasshopper window.</p>
 <p>From the Grasshopper window, open the “template.gh” file that is in the
 “<em>bin</em>” directory of the installed <strong>MINEDW</strong> directory. A
-workflow will appear on the Grasshopper canvas, shown in Figure 5.1
-This workflow is designed to create a 2-D mesh for a typical
+workflow will appear on the Grasshopper canvas, shown in Figure 5.1.
+This workflow is designed to create a 2D mesh for a typical
 mining-related groundwater flow model. The workflow may be modified
 using the tools contained in <em>Rhino</em> and Grasshopper to suit any
 requirements.</p>
@@ -560,9 +564,9 @@ generation using <em>Rhino</em> and Grasshopper.</p>
 <a class="reference internal image-reference" href="_images/figure_5_1_manual.png"><img alt="_images/figure_5_1_manual.png" src="_images/figure_5_1_manual.png" style="width: 5.94792in; height: 4.34792in;" /></a>
 <p class="caption"><span class="caption-text">Figure 5.1 The Grasshopper mesh generator template</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>The blocks shown in Figure 5-1 are called components. Each of the key
+<p>The blocks shown in Figure 5.1 are called components. Each of the key
 components is labeled by number and will be explained in detail in
-Section 5.2 Components have input parameters on their left side and
+Section 5.2. Components have input parameters on their left side and
 output parameters on their right side. A component box is orange in
 color if it has a warning message. The message can be viewed in the
 comment box on top of the component. The user assigns features such as
@@ -683,7 +687,7 @@ ability to add regions of finer discretization.</p>
 <p>If the “<em>Maximum Area</em>” block and “<em>Area</em>” link in the
 “<em>Domain</em>” block are connected, it also is only possible to set the
 maximum element area by connecting the grey slider to the left of the
-component, shown in Figure 5.3 The user can either use the slider to
+component, shown in Figure 5.3. The user can either use the slider to
 determine the value of the maximum area or double-click the grey area
 and enter the value.</p>
 <div class="figure align-center" id="id3">
@@ -741,7 +745,7 @@ in the “<em>Line</em>” input parameter menu, shown in Figure 5.4b.</p>
 <a class="reference internal image-reference" href="_images/figure_5_4_manual.png"><img alt="_images/figure_5_4_manual.png" src="_images/figure_5_4_manual.png" style="width: 5.82639in; height: 4.73889in;" /></a>
 <p class="caption"><span class="caption-text">Figure 5.4 The <em>“Fault</em>” component: a) the component, b) the
 “<em>Line</em>” input parameter menu, c) the “<em>Width</em>” input parameter
-menu.</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+menu</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
 </div>
 <p>The width of the fault is specified for each “<em>Fault</em>” component by
 right-clicking on the “<em>Width</em>” input parameter and selecting the
@@ -887,9 +891,9 @@ open-pit plans. The command allows the user to find the elevation of the
 pit at many x, y points without loss of accuracy due to interpolation.
 To install the function, go to the “<em>File</em>” menu and select the
 “<em>Properties</em>” option. The “<em>Document Properties</em>” dialog box
-shown in Figure 5.12 will open. Chose the option “<em>Plug-ins</em>” from
+shown in Figure 5.12 will open. Choose the option “<em>Plug-ins</em>” from
 the list on the left side of the “<em>Document Properties</em>” dialog box,
-circled in Figure 5.12 Click the “<em>Install</em>” button and choose the
+circled in Figure 5.12. Click the “<em>Install</em>” button and choose the
 “Drop.rhp” file. Make sure that “<em>Drop</em>” is listed under “<em>All
 Plug-ins</em>” and that the “<em>Enabled</em>” box next to it is checked, as
 shown in Figure 5.12.</p>
@@ -929,11 +933,19 @@ various uses.</p>
 
   <div role="contentinfo">
     <p>
+        
         &copy; Copyright 2020, Itasca Denver, Inc.
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -944,7 +956,6 @@ various uses.</p>
 
   </div>
   
-
 
   <script type="text/javascript">
       jQuery(function () {

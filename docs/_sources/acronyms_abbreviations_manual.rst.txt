@@ -40,7 +40,7 @@ BC = boundary condition
 
 .BUD = budget file
 
-C = Head constant-head boundary
+C = constant-head boundary
 
 .DAC = *FEFLOW* ASCII result file
 

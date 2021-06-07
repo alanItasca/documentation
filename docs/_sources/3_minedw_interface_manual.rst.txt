@@ -28,7 +28,7 @@ components:
 
 View Panes are used to store plots and function as a window that can be
 opened and closed. The View Pane without any plot items is defined as
-the base View Pane as shown in Figure 3.1 The base View Pane is a
+the base View Pane, as shown in Figure 3.1. The base View Pane is a
 unique View Pane (there is only one) in that it is permanent and cannot
 be closed, although it can be hidden from view.
 
@@ -37,7 +37,7 @@ Control Panel, which provides tools that can be used to define the
 contents of the plot (plot items) and the appearance of those items. A
 description of the Control Panel is provided in later sections. Plots
 typically consist of a model mesh, geologic setting, wells, boundary
-conditions, model outputs, and legend, as shown in Figure 3.2 Note that
+conditions, model outputs, and legend, as shown in Figure 3.2. Note that
 the Control Panel is turned off in Figure 3.2 in order to illustrate the
 View Pane.
 
@@ -61,7 +61,7 @@ The Main Menu banner in **MINEDW** includes the major functions of the
 **MINEDW** GUI. It contains 11 items: 1) “\ *File*,” 2) “\ *Project*,”
 3) “\ *Mesh*,” 4) “\ *BCs*,” 5) “\ *Mining*,” 6) “\ *Run*,” 7)
 “\ *Results*,” 8) “\ *View*,” 9) “\ *Tools*,” 10) “\ *Windows*,” and 11)
-“\ *Help*,” as shown in Figure 3.3
+“\ *Help*,” as shown in Figure 3.3.
 
 .. figure:: media/figure_3_3_manual.png
    :width: 5.46428in
@@ -73,8 +73,8 @@ The Main Menu banner in **MINEDW** includes the major functions of the
 3.2.1 The File Menu
 ~~~~~~~~~~~~~~~~~~~
 
-The “\ *File*\ ” drop-down menu contains the items shown in Figure 3.4
-Detailed descriptions of each menu item are also provided in Figure 3.4
+The “\ *File*\ ” drop-down menu contains the items shown in Figure 3.4.
+Detailed descriptions of each menu item are also provided in Figure 3.4.
 
 .. figure:: media/figure_3_4_manual.png
    :width: 3.62551in
@@ -91,7 +91,7 @@ Open Project:
 
 Save Project: 
 	Saves the current project file. This menu item remains inactive 
-	unless there is a change to the modeling components such as geologic 
+	unless there is a change to the modeling components, such as geologic 
 	setting, boundary condition, etc.
 
 Save Project As: 
@@ -107,7 +107,7 @@ Export Base:
 	Exports the base image as a bitmap, .DXF, .VRML, postscript, or .SVG file.
 
 Import: 
-	Imports a **MINEDW** project, *a* *FEFLOW* data set or a
+	Imports a **MINEDW** project, *a* *FEFLOW* data set, or a
 	stereolithography file containing a finite-element mesh. After the
 	“\ *Import*\ ” button is clicked, an “\ *Import File*\ ” dialog box
 	opens and provides four options. A user can import a **MINEDW**
@@ -206,7 +206,7 @@ Redo:
 ~~~~~~~~~~~~~~~~~~~
 
 The “\ *Mesh*\ ” drop-down menu is available from the Main Menu banner
-and includes the items shown in Figure 3.7 Detailed information about
+and includes the items shown in Figure 3.7. Detailed information about
 these menu items is available in Section 7.2.
 
 .. figure:: media/figure_3_7_manual.png
@@ -320,7 +320,7 @@ Zone of Relaxation for Caving:
 3.2.6 The Run Menu
 ~~~~~~~~~~~~~~~~~~
 
-The “\ *Run*\ ” drop-down menu contains the items listed in Figure 3.10
+The “\ *Run*\ ” drop-down menu contains the items listed in Figure 3.10.
 Details about these menu items can be found in Section 8.
 
 .. figure:: media/figure_3_10_manual.png
@@ -344,7 +344,7 @@ Execute:
 ~~~~~~~~~~~~~~~~~~~~~~
 
 The “\ *Results*\ ” drop-down menu contains the items shown in Figure
-3.11 Details about these menu items can be found in Section 9.
+3.11. Details about these menu items can be found in Section 9.
 
 .. figure:: media/figure_3_11_manual.png
    :width: 2.48586in
@@ -495,7 +495,7 @@ Restore Layout:
 	To revert back to the default layout of **MINEDW,** use the
 	“\ *Restore Layout”* option.
 
-The “\ **MINEDW** Options*\ ” dialog box (Figure 3.14) presents the
+The “\ **MINEDW** Options\ ” dialog box (Figure 3.14) presents the
 options listed below. The “\ *Display*\ ” and “\ *Movie*\ ” tabs are
 discussed in Sections 3.4.1.1 to 3.4.1.3.
 
@@ -786,7 +786,7 @@ model domain.
 
 “\ *Legend*\ ” is a local copy of the legend’s settings that are in
 effect for the current plot. The legend is displayed on the Legend Pane.
-On top of the Legend Pane is the ***MINEDW*** version and time stamp
+On top of the Legend Pane is the **MINEDW** version and time stamp
 when the plot was created. There are two alternatives for setting the
 legend:
 
@@ -825,7 +825,7 @@ Position:
 	scale of 0 to 100, in which 0 indicates the bottom-left corner and 100
 	indicates the top-right corner. Continuous adjustment of the upward
 	vertical position once the top of the Legend Panel reaches the top of
-	View Pane will reduce the height of the Legend Panel. The
+	the View Pane will reduce the height of the Legend Panel. The
 	“\ *Position*\ ” setting is only applicable if the legend
 	“\ *Placement*\ ” attribute is set to “\ *Floating*.”
 
@@ -1707,12 +1707,12 @@ Attribute Table:
 
 Coordinate Info: 
 	Displays the contents of a .PRJ file (a .PRJ
-	shapefile is not related to the .PRJ file created by ***MINEDW***). A
+	shapefile is not related to the .PRJ file created by **MINEDW**). A
 	.PRJ file contains information about the coordinate system and
 	projection in which the shapefile features are defined. A .PRJ file may
 	or may not be present.
 
-Group by:*
+Group by:
 	Specifies an attribute of the dBASE file with which to group
 	features. Each group is given a unique color and label in the legend and
 	view. To display all features as separate entities, select the last item
@@ -1825,7 +1825,7 @@ Isoline:
 	Displays isolines for elevation, pore pressure, head, head
 	difference, water table, and drawdown.
 
-IsoSurface: 
+Isosurface: 
 	Displays isosurfaces for elevation, head, pore pressure,
 	and head difference.
 
@@ -1921,7 +1921,7 @@ Caption:
 **Isoline**
 
 The attributes of “\ *Isoline*\ ” are the same as those described in the
-“\ *2D Contour/3D Contour*\ ” section with the exception of following:
+“\ *2D Contour and 3D Contour*\ ” section with the exception of the following:
 
 Cutplane: 
 	Though a cutplane is not very meaningful for “\ *Isoline*,”
@@ -1935,7 +1935,7 @@ Clip Box:
 **Isosurface**
 
 The attributes of “\ *Isosurface*\ ” are the same as those described in
-the “\ *2D Contour/3D Contour*\ ” section with the exception of
+the “\ *2D Contour and 3D Contour*\ ” section with the exception of
 “\ *Cutplane*.” A cutplane can only be created through the “\ *Plane*\ ”
 option under “\ *Cutting Planes*\ ” in “\ *List*.”
 

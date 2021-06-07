@@ -143,7 +143,7 @@ files “\ *MINE\_SCHEDULE.DAT*,” “\ *ULTIMATE.BLN,*\ ” “\ *YEAR1.DAT*,�
 “\ *YEAR2.DAT*,” etc. were moved from “\ *INPUT/OPENPIT*\ ” to the main
 simulation directory). Next, click the *“Options…”* button to open the
 *“Mining Plan Interpolation”* dialog box. Uncheck the box next to *“Not
-interpolated if no data found in Rang.”* This will exclude locations
+interpolated if no data found in Range.”* This will exclude locations
 that do not have associated elevation data. Click *“OK”* on the *“Mining
 Plan Interpolation”* dialog box to accept the changes and then click
 “\ *OK*\ ” on the *“Create Mining Plan”* dialog box to create the mining
@@ -224,7 +224,7 @@ in thickness (i.e., each layer will be 50% of the ZOR) (see Figure
 
    Figure 2.9 The “\ *Open Pit*\ ” dialog box showing the “\ *ZOR*\ ” tab
 
-Next, click “\ *Search ZOR Unit,*\ ” located at the bottom of the dialog
+Next, click “\ *Search ZOR Units,*\ ” located at the bottom of the dialog
 box. The geological zones that lie within the defined ZOR will appear
 (Figure 2.9). The numbers next to each geological unit represent the
 factor by which the *K* in each ZOR layer will change. The default is 1,
@@ -423,7 +423,7 @@ pumping off, set the pumping rate to -9,999,999 in the last pumping-rate
 record of the dialog box. It is important that the last pumping-rate
 record be a large negative number if pumping is to be turned off. If it
 is not the last record or it is not a large negative number,
-***MINEDW*** will not recognize that the well is to be turned off and
+**MINEDW** will not recognize that the well is to be turned off and
 will continue to extract water at that well. Pumping in this tutorial
 should end on or before the end of mining (Figure 2.17). If the pumping
 rate changes with time, go to the lower right window shown in Figure
@@ -474,8 +474,8 @@ Variable-Flux Boundary
 
 A “\ *Variable-Flux*\ ” boundary condition is assigned from the top of
 the model to the bottom along portions of the model domain. Ensure that
-Layer 5 is selected by clicking on the “\ *Attributes*\ ” ab in the
-“\ *Control Panel*\ ” pane, checking that “\ *Layer*\ ” is set to 5, as
+Layer 5 is selected by clicking on the “\ *Attributes*\ ” tab in the
+“\ *Control Panel*\ ” pane and checking that “\ *Layer*\ ” is set to 5, as
 shown in Figure 2.19.
 
 .. figure:: media/figure_2_19_tutorial.png

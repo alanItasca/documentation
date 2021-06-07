@@ -1,8 +1,7 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<html class="writer-html5" lang="en" >
 <head>
   <meta charset="utf-8">
   
@@ -12,28 +11,31 @@
   
 
   
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+
+  
   
   
   
 
   
-  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
         <script src="_static/jquery.js"></script>
         <script src="_static/underscore.js"></script>
         <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
         <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
     
-
-  
-  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Tutorial 2 - Open Pit Mining" href="2_transient_state_open_pit_tutorial.html" />
@@ -63,7 +65,7 @@
           
 
           
-            <a href="index.html" class="icon icon-home"> MINEDW 3.06
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> MINEDW 3.06
           
 
           
@@ -192,6 +194,7 @@ button.gsc-search-button
           
         </div>
 
+        
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
           
             
@@ -452,6 +455,7 @@ button.gsc-search-button
             
           
         </div>
+        
       </div>
     </nav>
 
@@ -490,7 +494,7 @@ button.gsc-search-button
 
   <ul class="wy-breadcrumbs">
     
-      <li><a href="index.html">Docs</a> &raquo;</li>
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
         
       <li>Tutorial 1 - Initial Condition</li>
     
@@ -713,7 +717,7 @@ right-click and drag within the layout.</p>
 <p class="caption"><span class="caption-text">Figure 1.2 The default view ports in <em>Rhino</em></span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
 <p>After importing the required files, the result should appear similar to
-Figure 1.3 The <em>“MODEL BOUNDARY”</em> must be a completely closed region in
+Figure 1.3. The <em>“MODEL BOUNDARY”</em> must be a completely closed region in
 order to generate a mesh. The <em>“OPEN PIT”</em> and “<em>TRANSITION ZONE”</em>
 (Figures 1.3 and 1.4) regions will contain a refined mesh and must be
 closed as well. The “<em>STREAM NETWORK”</em> represents a series of
@@ -862,7 +866,7 @@ saved the changes to the <em>Grasshopper</em> document, opening the
 <a class="reference internal image-reference" href="_images/figure_1_9_tutorial.png"><img alt="_images/figure_1_9_tutorial.png" src="_images/figure_1_9_tutorial.png" style="width: 6.5in; height: 5.65in;" /></a>
 <p class="caption"><span class="caption-text">Figure 1.9 The <em>Grasshopper</em>-generated mesh</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
 </div>
-<p>In order to finalize the mesh and export it in a format that is useable
+<p>In order to finalize the mesh and export it in a format that is usable
 by <strong>MINEDW</strong>, the <em>Grasshopper</em>-generated mesh needs to be
 <em>“Bake[d].”</em> To do this, right-click on the <em>“MMesh”</em> component in
 <em>Grasshopper</em> and select <em>“Bake”</em> from the drop-down menu. An
@@ -937,21 +941,21 @@ the <strong>MINEDW</strong> output file.</p>
 <div class="section" id="step-3-defining-time-steps">
 <h3>Step 3. Defining Time Steps<a class="headerlink" href="#step-3-defining-time-steps" title="Permalink to this headline">¶</a></h3>
 <p>To define the time steps for the project, click “<em>Project</em>” on the
-Main Menu banner, then select “<em>Time Steps.</em>” The “<em>Set Up Time
-Step</em>” dialog box (Figure 1.13) appears. Set the “<em>Maximum</em> <em>Time
+Main Menu banner, then select “<em>Time Steps.</em>” The “<em>Setup Time
+Step</em>” dialog box (Figure 1.13) appears. Set the “<em>Maximum # of Time
 Steps</em>” to 100 or greater. Enter “31” for the <em>“Initial Time Step
 Length.”</em> For steady-state simulations, only the length of the first
 time step will be used. Each subsequent time step will be 1.2 times
 longer than the previous time step. For transient simulations, the
 multiplication factor is 1 and the time-step length is defined in the
-“<em>Set Up Time Step</em>” dialog box for transient model runs. Ensure
+“<em>Setup Time Step</em>” dialog box for transient model runs. Ensure
 that the <em>“# of Time Steps for This Simulation</em>” slider is set to 100
 or greater and that the “<em>Start at Time Step</em>” combo box is set to
-1. Click “<em>OK</em>” to save the changes and close the <em>“Set Up Time
+1. Click “<em>OK</em>” to save the changes and close the <em>“Setup Time
 Step”</em> dialog box.</p>
 <div class="figure align-center" id="id13">
 <a class="reference internal image-reference" href="_images/figure_1_13_tutorial.png"><img alt="_images/figure_1_13_tutorial.png" src="_images/figure_1_13_tutorial.png" style="width: 2.77in; height: 4.12in;" /></a>
-<p class="caption"><span class="caption-text">Figure 1.13 The “<em>Set Up Time Step</em>” dialog box</span><a class="headerlink" href="#id13" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Figure 1.13 The “<em>Setup Time Step</em>” dialog box</span><a class="headerlink" href="#id13" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 <div class="section" id="step-4-importing-ground-surface-elevation">
@@ -1346,14 +1350,14 @@ Panel”</em> pane. Ensure that the <em>“Layer”</em> attribute under the
 the Main Menu banner. Using the “<em>Select</em>” tool, select the nodes
 along the southwest perimeter as shown in Figure 1.42 and then press
 [Enter]. In the “<em>Assign Properties for Nodes</em>” dialog box that
-appears, select “<em>Add to Constant Head Boundary</em>” (Figure 1.43).
+appears, select “<em>Add to Constant-Head Boundary</em>” (Figure 1.43).
 Next, select the <em>“MtBlock”</em> group from the drop-down menu that becomes
 active and then enter the bottommost layer in the box to the right next
 to <em>“From Current Layer.”</em> This will assign the constant-head boundary
 from Layer 5 to the bottom of the model domain.</p>
 <div class="figure align-center" id="id42">
 <a class="reference internal image-reference" href="_images/figure_1_42_tutorial.png"><img alt="_images/figure_1_42_tutorial.png" src="_images/figure_1_42_tutorial.png" style="width: 6.49in; height: 3.91in;" /></a>
-<p class="caption"><span class="caption-text">Figure 1.42 The View Pane with the selected constant head boundary
+<p class="caption"><span class="caption-text">Figure 1.42 The View Pane with the selected constant-head boundary
 nodes</span><a class="headerlink" href="#id42" title="Permalink to this image">¶</a></p>
 </div>
 <p>Repeat the steps described above for the remaining perimeter nodes that
@@ -1392,7 +1396,7 @@ files may not be visible in the <em>“Import Text File”</em> dialog box becau
 Excel by default looks for files that have a “.TXT” extension. To view
 all of the files in the directory through the <em>“Import Text File”</em>
 dialog box, select <em>“All Files (*.*)”</em> from the drop-down menu on the
-lower right-hand corner of the dialog box. Now that the all of the files
+lower right-hand corner of the dialog box. Now that all of the files
 that <strong>MINEDW</strong> created are visible, select the file named
 <em>“chead.dat,”</em> then click <em>“Open.”</em> Repeat these steps on the
 <em>“Input-node.FEM”</em> tab, but this time select the file labeled
@@ -1499,7 +1503,7 @@ reaches defined</span><a class="headerlink" href="#id47" title="Permalink to thi
 come from outside of the model domain or from some other external
 source, such as a pipeline that discharges flow to a river. In this
 tutorial, two tributaries are simulated, one for River 5 and one for
-River 7. Although the tributary function can except temporally varying
+River 7. Although the tributary function can accept temporally varying
 inputs for a transient simulation, this tutorial will use constant
 inflow for both the steady-state and transient simulations. Figure 1.48
 shows the <em>“Tributary”</em> tab with the tributary for River 5 defined. To
@@ -1766,11 +1770,19 @@ attribute and choosing a different color ramp.</p>
 
   <div role="contentinfo">
     <p>
+        
         &copy; Copyright 2020, Itasca Denver, Inc.
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -1781,7 +1793,6 @@ attribute and choosing a different color ramp.</p>
 
   </div>
   
-
 
   <script type="text/javascript">
       jQuery(function () {
